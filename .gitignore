@@ -22,7 +22,7 @@ next-env.d.ts
 /geo
 /dist
 /generated
-/src/generated
+# /src/generated - Keep generated Prisma client in repo for builds
 pm2.yml
 
 # misc
