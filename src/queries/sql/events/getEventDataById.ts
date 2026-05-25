@@ -1,4 +1,4 @@
-import type { EventData } from '@/generated/prisma/client';
+import type { EventData } from '@/generated/prisma';
 import clickhouse from '@/lib/clickhouse';
 import { CLICKHOUSE, PRISMA, runQuery } from '@/lib/db';
 import prisma from '@/lib/prisma';

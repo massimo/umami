@@ -1,4 +1,4 @@
-import type { Prisma } from '@/generated/prisma/client';
+import type { Prisma } from '@/generated/prisma';
 import { BOARD_TYPES } from '@/lib/boards';
 import prisma from '@/lib/prisma';
 import type { QueryFilters } from '@/lib/types';
